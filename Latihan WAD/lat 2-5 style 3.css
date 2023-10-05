@@ -1,0 +1,20 @@
+body{
+    background-color: blanchedalmond;
+    background-image: url();
+}
+h1{
+    color: brown;
+    text-align: center;
+    text-transform:capitalize
+}
+
+h2{
+    color: rgb(202, 21, 21);
+    text-align: center;
+    text-decoration :overline;
+}
+
+p{
+    color: rgb(118, 191, 255);
+    text-align: center;
+}
