@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AKN Bojonegoro</title>
+</head>
+<body>
+    <h1>JavaScript can change image</h1>
+    <img id="myImage" onclick="changeImage()" src="lat 3-2 gambar.jpg" width="200" height="278">
+    <p>click image to change image</p>
+    <script>
+        function changeImage(){
+        var image = document.getElementById('myImage')
+        if (image.src.match("DSC")){
+            image.src = "lat 3-2 gambar.jpg";
+        } else {
+            image.src = "DSC.jpg";
+        }
+        }
+    </script>
+</body>
+</html>
